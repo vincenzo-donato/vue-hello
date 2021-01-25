@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* CSS STYLE CONTAINER GENERAL  */
+#container{
+    text-align: center;
+    padding: 20px;
+}
+
+/* CSS STYLE CONTAINER IMG  */
+.container-img{
+    width: 500px;
+    margin:auto;
+    margin-top:50px;
+    padding: 20px;
+}
+
+/* CSS STYLE CONTAINER IMG CHANGE COLORE BACKGROUND  */
+.red {
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.black{
+    background-color:black;
+}
+
+/* CSS STYLE IMG  */
+img .addclass{
+    width: 80%;
+    margin: auto;
+}

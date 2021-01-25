@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- BOX CONTAINER  -->
+    <div id="container">
+
+        <!-- tittle change -->
+        <h1 >{{message}}</h1>
+        <!-- tittle change end -->
+    
+        <!-- input  -->
+        <input id="text-input" type="text" v-model = "ora" placeholder="inserisci l'ora">
+        <button @click='view'>Conferma</button>
+        <!-- input end -->
+
+        <!-- container img  -->
+        <div :class="color" class="container-img">
+            <img :class="classImg" :src="src" :alt="titoloImg" >
+        </div>
+        <!-- container img end -->
+
+    </div>
+    <!-- BOX CONTAINER END  -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
